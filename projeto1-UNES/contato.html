@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Contato - UNES Universidade</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/img/logo.png" alt="UNES Universidade">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="contato.html" class="ativo">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="conteudo">
+        <div class="container">
+            <h1>Contato</h1>
+            <p>
+                Ficou com alguma dúvida? Quer saber mais sobre nossos cursos ou o
+                processo de admissão? Preencha o formulário abaixo ou utilize um de
+                nossos canais de atendimento.
+            </p>
+
+            <div class="info-contato">
+                <p><strong>E-mail:</strong> contato@unes.edu.br</p>
+                <p><strong>Telefone:</strong> (11) 4002-8922</p>
+                <p><strong>Endereço:</strong> Av. das Nações, 1000 - São Paulo/SP</p>
+                <p><strong>Horário de atendimento:</strong> Seg. a Sex., das 8h às 18h</p>
+            </div>
+
+            <form action="#" method="post">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+
+                <label for="assunto">Assunto</label>
+                <select id="assunto" name="assunto" required>
+                    <option value="">Selecione...</option>
+                    <option value="cursos">Informações sobre cursos</option>
+                    <option value="admissao">Processo de admissão</option>
+                    <option value="financeiro">Financeiro</option>
+                    <option value="outros">Outros</option>
+                </select>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem..." required></textarea>
+
+                <button type="submit">Enviar mensagem</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>UNES - Universidade | Projeto para fins de estudo</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
